@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+body {
+  background-color: #3498DB;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  width: 400px;
+}
+@media (max-width: 600px) {
+  main {
+    width: 80%;
+  }
+}
+main header {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px auto 0;
+  color: #202842;
+}
+main p {
+  color: #858a9f;
+  font-weight: 100;
+  font-size: 12px;
+}
+main form {
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+}
+main form input {
+  margin-bottom: 10px;
+  height: 45px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: none;
+  outline: none;
+}
+main form input[type=text] {
+  border: 1px solid #c3c4c8;
+  padding: 0 16px;
+  box-shadow: 6px 6px 11px #f7f7f7, -6px -6px 11px #ffffff;
+}
+main form input[type=button] {
+  background-color: #3498DB;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+main .image {
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+main .image.active {
+  padding: 20px 10px;
+  border: 1px solid #c3c4c8;
+}/*# sourceMappingURL=main.css.map */
