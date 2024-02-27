@@ -1,3 +1,3 @@
 # QR-Generator
 
-project link: https://mariem25.github.io/QR-Generator/
+project link: https://mariem-abdalwahab.github.io/QR-Generator/
